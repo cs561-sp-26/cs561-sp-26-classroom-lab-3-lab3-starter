@@ -114,3 +114,23 @@
     width: auto;
     margin-left: 16px;
 } 
+
+/*************************************************************************
+* GLOBAL CSS CLASSES
+* These are global classes that are useful for a variety of elements.
+*************************************************************************/
+*:focus {
+    border: 3px solid #94BFF9 !important;
+    border-radius: 3px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 
+       0 0 3px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+
+.hidden {
+    display: none;
+}
+
+.disabled {
+    pointer-events: none;
+}
