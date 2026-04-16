@@ -2,7 +2,7 @@
 *Update this README file every time you push to the `main` branch. In addition, make sure you push a new branch README file (make a copy of the `branch-readme.md` template and rename to `your-branch-name`-readme.md) every time you merge a feature branch into `main`.*
 
 ## Team Members
-- Name 1 (GitHub ID 1)
+- Luke (goodmalu19)
 - Name 2 (GitHub ID 2)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
@@ -12,7 +12,7 @@
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
-| Name 1 | 12 | 50 | 4.2
+| Luke | 6 | 45 | 7.5
 | Name 2 | 8 | 20  | 2.5
 | Name 3 | 5 | 10 | 2
 | Name 4 | 3 | 5 | 1.67
@@ -22,7 +22,7 @@
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Luke | 0 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
@@ -31,7 +31,7 @@
 ## Rebases
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Luke | 0 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
@@ -40,7 +40,7 @@
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Luke | 0 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
