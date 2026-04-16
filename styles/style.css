@@ -11,9 +11,13 @@
 * attributes of the app's visual appearance. They can be easily tweaked.
 *************************************************************************/
 :root {
-    --main-color: #13294E;
-    --text-color: white;         
+    --main-color: #34495e;
+    --text-color: #ecf0f1;
+    --main-red-color: #ff0f00; 
+    --item-highlight-color: #f0f0f0;    
+    --side-menu-width: 250px;       
 }
+
 
 /*************************************************************************
 * CSS CLASSES FOR SKIP LINK (USED BY SCREEN READERS AND KEYBOARD NAV)
