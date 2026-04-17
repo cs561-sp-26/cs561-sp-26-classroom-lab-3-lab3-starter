@@ -153,3 +153,16 @@ button::-moz-focus-inner {
 .btn-main { background: blue; color: white; border-radius: 5px; }
 .container-fluid { width: 100%; padding: 0 15px; }
 .text-center { text-align: center; }
+
+.sidemenu-open {
+    width: var(--side-menu-width);
+}
+.sidemenu li {
+    padding: 24px 0px 24px 24px;
+    font-size: 18px;
+}
+.sidemenu li:hover {
+    cursor: pointer;
+    background-color: var(--item-highlight-color);
+    color: var(--main-color);
+}
