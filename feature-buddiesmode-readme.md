@@ -10,16 +10,12 @@ Addition of a new screen which will allow users to find other speed golf players
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| a2c765f | Added tab button for the buddies screen which will be implemented. Started feature documentation | 8
+| 6abd1f0 | Added content panel for buddies feature | 13
+| 0898dbb | Added dialog for sending buddy requests to other users | 18
 
-### Total Commits Made in this Branch: xx
+### Total Commits Made in this Branch: 3
 
-### Merge Conflict Description (Delete if not applicable)
-Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
+### Cherry Pick Description 
+I cherry-picked commit `a2c765f` from the `feature/buddiesmode` branch into the `main` branch.  I had already progressed past this point working on the feature, but the button needed to be made available sooner as a placeholder so that the menu structure could be refined.  There were no conflicts with this cherry-pick.
 
-### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
-
-### Cherry Pick Description (Delete if not applicable)
-Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
