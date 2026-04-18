@@ -7,7 +7,7 @@
 - Name 1 (GitHub ID 1)
 - Name 2 (GitHub ID 2)
 - Adrien Protzel (934043865)
-- Name 4 (GitHub ID 4)
+- Chris Somnitz (91498970)
 - Name 5 (GitHub ID 5)
 
 ## Commits
@@ -17,7 +17,7 @@
 | Name 1 | 12 | 50 | 4.2
 | Name 2 | 8 | 20  | 2.5
 | Adrien Protzel | 0 | 0 | 0
-| Name 4 | 3 | 5 | 1.67
+| Chris Somnitz | 0 | 0 | 0
 | Name 5 | 2 | 2  | 1
 | **Totals** | **30** | **87** | **2.9**
 
@@ -27,7 +27,7 @@
 | Name 1 | 2 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
+| Chris Somnitz | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
 
 ## Rebases
@@ -36,7 +36,7 @@
 | Name 1 | 2 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
+| Chris Somnitz | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
 
 ## Cherry Picks
@@ -45,5 +45,5 @@
 | Name 1 | 2 | `feature/new-feature`
 | Name 2 | 1 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
+| Chris Somnitz | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
