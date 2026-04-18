@@ -173,3 +173,9 @@ button::-moz-focus-inner {
 .mode-page {
     padding-top: 70px;
 }
+
+.mode-page-header {
+    text-align: center;
+    font-size: 48px;
+}
+
