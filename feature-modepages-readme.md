@@ -1,10 +1,10 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch `feature/ModePages`
 
 ## Branch Author
-Author Name (GitHub ID)
+Dan Gelder (gelderdatoregonstate)
 
 ## Summary of Work Done in this Branch
-Insert a summary of the work done in this branch. This should include a description the new feature(s) added and any bugs fixed.
+The ModePages CSS area was added, commit by commit. Each commit was a single CSS selector.
 
 ## Commits
 
