@@ -12,6 +12,11 @@ function restoreState(state) {
     GlobalHistoryLogging = true;
 }
 
+window.addEventListener('load', (event) => {
+  GlobalModeTabButtons[0].click();
+});
+
+
 window.addEventListener('popstate', (event) => {
     if (!event.state) return;
     restoreState(event.state);
