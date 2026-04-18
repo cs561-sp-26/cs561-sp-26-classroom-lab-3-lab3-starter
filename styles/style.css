@@ -179,3 +179,7 @@ button::-moz-focus-inner {
     font-size: 48px;
 }
 
+.mode-page-content {
+    text-align: center;
+    font-size: 24px;
+}
