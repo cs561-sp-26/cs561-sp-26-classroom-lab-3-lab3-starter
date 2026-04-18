@@ -1,4 +1,4 @@
-# Branch `feature/rounds_mode`
+# CS 561 Lab 3: Branch `feature/rounds_mode`
 
 ## Branch Author
 Kristofer Soto

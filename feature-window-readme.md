@@ -1,4 +1,4 @@
-# Branch `feature/window`
+# CS 561 Lab 3: Branch `feature/window`
 
 ## Branch Author
 Kristofer Soto

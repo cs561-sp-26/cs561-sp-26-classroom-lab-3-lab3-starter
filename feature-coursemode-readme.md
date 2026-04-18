@@ -1,4 +1,4 @@
-# Branch `feature/course_mode`
+# CS 561 Lab 3: Branch `feature/course_mode`
 
 ## Branch Author
 Kristofer Soto
