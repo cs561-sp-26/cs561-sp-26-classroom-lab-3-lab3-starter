@@ -4,7 +4,7 @@
 *Update this README file every time you push to the `main` branch. In addition, make sure you push a new branch README file (make a copy of the `branch-readme.md` template and rename to `your-branch-name`-readme.md) every time you merge a feature branch into `main`.*
 
 ## Team Members
-- Name 1 (GitHub ID 1)
+- Alex Bruzda (253197526)
 - Savannah Tanner (102627802)
 - Adrien Protzel (934043865)
 - Chris Somnitz (91498970)
@@ -14,7 +14,7 @@
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
-| Name 1 | 12 | 50 | 4.2
+| Alex Bruzda | 0 | 0 | 0
 | Savannah Tanner | 4 | 6 | 1.5
 | Adrien Protzel | 0 | 0 | 0
 | Chris Somnitz | 0 | 0 | 0
@@ -24,7 +24,7 @@
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Alex Bruzda | 0 | `feature/new-feature`
 | Savannah Tanner | 1 | `feature/css-classes-for-mode-pages`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
@@ -33,7 +33,7 @@
 ## Rebases
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Alex Bruzda | 0 | `feature/new-feature`
 | Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
@@ -42,7 +42,7 @@
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
+| Alex Bruzda | 0 | `feature/new-feature`
 | Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
