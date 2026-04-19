@@ -90,3 +90,7 @@ const GlobalDialogCancelButtons =
 /*****************************************************/
 /* OTHER UI COMPONENT VARIABLES */
 /*****************************************************/
+const GlobalSearchBtn = document.getElementById("searchBtn");
+const GlobalProfileBtn = document.getElementById("profileBtn");
+const GlobalSkipLink = document.getElementById("sLink");
+const GlobalModeTabsContainer = document.getElementById("modeTabs");
