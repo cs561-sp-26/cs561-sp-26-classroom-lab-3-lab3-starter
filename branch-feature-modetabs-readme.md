@@ -8,41 +8,73 @@ Creates modeTabs.js which will be used to allow the user to switch from the curr
 
 ## Commits
 
-commit 03ee402bdf5954b1bbbd587b8eadddb3695c7bcd (HEAD -> feature/mode-tabs, origin/feature/mode-tabs)
+commit ae63983d07497ddb59acb247552c19ee12688fa7 (HEAD -> feature/mode-tabs, origin/feature/mode-tabs)
+Author: Shivani Pushparajan <pushpars@oregonstate.edu>
+Date:   Sun Apr 19 11:42:18 2026 -0700
+
+    Integrate ModeTabs into the Document.Js
+
+commit 5ece9250c4f95dc8329b59580b9f3381e4bb5cff
+Author: Shivani Pushparajan <pushpars@oregonstate.edu>
+Date:   Sun Apr 19 11:40:34 2026 -0700
+
+    Update Cherry Pick ReadMe file contents
+
+commit ca3ae88baf0218e43693695d76b6fb6bee709260
+Author: Shivani Pushparajan <pushpars@oregonstate.edu>
+Date:   Sun Apr 19 11:35:08 2026 -0700
+
+    Update Rebase description to reflect rebase done.
+
+commit 38964ffedc8c8c0cbf80ebe814498459bd132df2
+Author: Shivani Pushparajan <pushpars@oregonstate.edu>
+Date:   Sun Apr 19 11:26:34 2026 -0700
+
+    Created branch read me file
+
+commit 319d34af6dca3a2aefb1b32a37f5faac2a0bf427
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:17:17 2026 -0700
 
     Add header file comment block for modeTabs.js
 
-commit 992d190a89b47736a1169cde357f6e6786692c59
+commit 2a572e417f1cc01419f62ff2c75136c6fe7e097d
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:15:47 2026 -0700
 
     Add for loop that add event listeners to trigger the switchMode function
 
-commit 73138e34da5f793d5c7c9e7b73205b39c4ce595c
+commit 69c3e756f7260361f9dfa0aeb69d5467063805c2
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:15:00 2026 -0700
 
     Add method documentation for method switchMode
 
-commit 8a19bb7bb36cecd0bc3347d21fb60a2f3be1446e
+commit 1be1e5ffb86aeb53b604d60b5f790961b1c368f3
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:14:26 2026 -0700
 
     Add function switchMode that switches user from the current mode to a new mode
 
-commit 84dc2374379c1fca79b035738ae7a0925b934a18
+commit 97bd0e0e5c66e2463bc7c0c0c323a883b688db5b
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:13:29 2026 -0700
 
     Add method documentation for method keyDownModeTabFocused
 
-commit c90332503cfc3d042429bdb4708a0960cfa30483
+commit 27d3737c6da4a32c994d1b82b16a420934c6b768
 Author: Shivani Pushparajan <pushpars@oregonstate.edu>
 Date:   Sun Apr 19 11:12:57 2026 -0700
 
-### Total Commits Made in this Branch: 6
+    Add function keyDownModeTabFocused that handles valid keydown events when a mode tab button has the focus
+
+commit 7c3862709a8edd85fc4f39bf11cf11c518ba5c3c
+Author: Shivani Pushparajan <pushpars@oregonstate.edu>
+Date:   Sun Apr 19 11:10:07 2026 -0700
+
+    Create modeTabs.js which will be used to allow the user to switch from the current mode to a new mode
+
+### Total Commits Made in this Branch: 11
 
 ### Merge Conflict Description (Delete if not applicable)
 Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
