@@ -17,7 +17,7 @@
 | Alex Bruzda | 6 | 414 | 69
 | Savannah Tanner | 15 | 145 | 9.7
 | Adrien Protzel | 3 | 70 | 50
-| Chris Somnitz | 0 | 0 | 0
+| Chris Somnitz | 7 | 108 | 15.43
 | Kyle Noble | 4 | 219 | 54.75
 | **Totals** | **25** | **778** | **31.1**
 
@@ -25,9 +25,9 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Alex Bruzda | 1 | `feature/menu-logic`
-| Savannah Tanner | 2 | `feature/css-classes-for-mode-pages`, 'feature/document-events'
+| Savannah Tanner | 2 | `feature/css-classes-for-mode-pages`, `feature/document-events`
 | Adrien Protzel | 3 | `feature/new-feature`
-| Chris Somnitz | 0 | `feature/new-feature`
+| Chris Somnitz | 1 | `feature/sidemenu-style`
 | Kyle Noble | 1 | `feature/mode-tabs-style`
 
 ## Rebases
@@ -36,7 +36,7 @@
 | Alex Bruzda | 1 | `feature/menu-logic`
 | Savannah Tanner | 1 | `feature/document-events`
 | Adrien Protzel | 0 | `feature/new-feature`
-| Chris Somnitz | 0 | `feature/new-feature`
+| Chris Somnitz | 1 | `feature/sidemenu-li-style`
 | Kyle Noble | 1 | `feature/mode-tabs-content`
 
 ## Cherry Picks

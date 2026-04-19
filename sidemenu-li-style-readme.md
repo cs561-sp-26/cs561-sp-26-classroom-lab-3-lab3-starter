@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `feature/sidemenu-style-li`
+# CS 561 Lab 3: Branch `feature/sidemenu-li-style`
 
 ## Branch Author
 Chris Somnitz (91498970)
@@ -15,4 +15,4 @@ Insert a summary of the work done in this branch. This should include a descript
 ### Total Commits Made in this Branch: 1
 
 ### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/sidemenu-style-li` branch onto the `main` branch. The commit ID for this rebase is `b232e3b`. No conflicts arose during the rebase process.
+Example: In this branch, I rebased the `feature/sidemenu-li-style` branch onto the `main` branch. The commit ID for this rebase is `b232e3b`. No conflicts arose during the rebase process.
