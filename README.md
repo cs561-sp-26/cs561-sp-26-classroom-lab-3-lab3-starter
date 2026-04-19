@@ -15,18 +15,18 @@
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Alex Bruzda | 0 | 0 | 0
-| Savannah Tanner | 4 | 6 | 1.5
+| Savannah Tanner | 15 | 145 | 9.7
 | Adrien Protzel | 3 | 70 | 50
 | Chris Somnitz | 0 | 0 | 0
 | Kyle Noble | 4 | 219 | 54.75
-| **Totals** | **30** | **87** | **2.9**
+| **Totals** | **19** | **364** | **19.2**
 
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Alex Bruzda | 0 | `feature/new-feature`
 | Savannah Tanner | 1 | `feature/css-classes-for-mode-pages`
-| Adrien Protzel | 3 | `feature/new-feature`
+| Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
 | Kyle Noble | 1 | `feature/mode-tabs-style`
 
@@ -34,7 +34,7 @@
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
 | Alex Bruzda | 0 | `feature/new-feature`
-| Savannah Tanner | 0 | `feature/new-feature`
+| Savannah Tanner | 1 | `feature/document-events`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
 | Kyle Noble | 1 | `feature/mode-tabs-content`
@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Alex Bruzda | 0 | `feature/new-feature`
-| Savannah Tanner | 0 | `feature/new-feature`
+| Savannah Tanner | 1 | `feature-Action-Dialog`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
 | Kyle Noble | 0 | `feature/new-feature`
