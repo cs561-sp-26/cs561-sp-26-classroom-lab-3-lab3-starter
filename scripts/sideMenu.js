@@ -22,3 +22,9 @@ document.getElementById("menuBtn")
         sideMenu.classList.remove("sidemenu-open");
     }
 });
+
+for (let i = 0; i < GlobalMenuItems.length; ++i) {
+    GlobalMenuItems[i].addEventListener("click", function() {
+        GlobalMenuBtn.click();
+    });
+}
