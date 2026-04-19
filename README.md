@@ -15,7 +15,7 @@
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Name 1 | 12 | 50 | 4.2
-| Savannah Tanner | 0 | 0  | 0
+| Savannah Tanner | 4 | 6 | 1.5
 | Adrien Protzel | 0 | 0 | 0
 | Chris Somnitz | 0 | 0 | 0
 | Kyle Noble | 2 | 82  | 41
@@ -25,7 +25,7 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Savannah Tanner | 0 | `feature/new-feature`
+| Savannah Tanner | 1 | `feature/css-classes-for-mode-pages`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
 | Kyle Noble | 1 | `feature/mode-tabs-style`
