@@ -78,7 +78,17 @@ const GlobalModeTabPanels =
 /* FLOATING ACTION BUTTON AND MODAL DIALOG VARIABLES */
 /*****************************************************/
 //Array of mode action buttons
-
+const GlobalModeActionButtons = 
+  document.querySelectorAll("button.float-btn");
+//array of mode action dialog boxes
+const GlobalModeActionDialogs =
+  document.querySelectorAll("div.action-dialog");
+//array of "OK" buttons within the dialog boxes
+const GlobalDialogActionButtons =
+  document.querySelectorAll("button.action-button");
+//array of "Cancel" buttons within the dialog boxes
+const GlobalDialogCancelButtons =
+  document.querySelectorAll("button.cancel-button");
 
 
 /*****************************************************/
