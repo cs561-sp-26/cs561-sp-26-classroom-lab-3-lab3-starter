@@ -60,7 +60,27 @@ for (let i = 0; i < GlobalModeActionButtons.length; ++i) {
  * @global dialogActionButtons: array of default ("OK") buttons for
  * each mode's dialog box
  *************************************************************************/
-
+for (let i = 0; i < GlobalDialogActionButtons.length; ++i) {
+    GlobalDialogActionButtons[i].addEventListener("click",function(e) {
+        //Hide dialog box
+        GlobalModeActionDialogs[i].classList.add("hidden");
+        //Show tab panel
+        GlobalModeTabPanels[i].classList.remove("hidden");
+        //Show and enable other UI elements
+        GlobalMenuBtn.classList.remove("disabled");       
+        GlobalSearchBtn.classList.remove("disabled"); 
+        GlobalProfileBtn.classList.remove("disabled");                                 
+        GlobalSkipLink.classList.remove("hidden"); 
+        GlobalModeTabsContainer.classList.remove("disabled"); 
+        //Set focus to floating action button
+        GlobalModeActionButtons[i].focus();
+        //TO DO: Implement mode-specific functionality
+        if (GlobalHistoryLogging) {
+            history.back();
+            console.log("Console: In GlobalDialogActionButtons click handler; moving history stack pointer to previous frame.");
+        }
+    });
+}
 /*************************************************************************
  * @function Dialog Box Cancel Button CLICK handler 
  * @Desc 
