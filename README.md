@@ -18,7 +18,7 @@
 | Savannah Tanner | 0 | 0  | 0
 | Adrien Protzel | 0 | 0 | 0
 | Chris Somnitz | 0 | 0 | 0
-| Kyle Noble | 0 | 0  | 0
+| Kyle Noble | 2 | 82  | 41
 | **Totals** | **30** | **87** | **2.9**
 
 ## Merge Conflicts Resolved
@@ -28,7 +28,7 @@
 | Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
-| Kyle Noble | 0 | `feature/new-feature`
+| Kyle Noble | 1 | `feature/mode-tabs-style`
 
 ## Rebases
 | Name | # Rebases | Within Branch
