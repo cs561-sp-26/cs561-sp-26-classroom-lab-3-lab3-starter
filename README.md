@@ -37,7 +37,7 @@
 | Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
-| Kyle Noble | 1 | `feature/new-feature`
+| Kyle Noble | 1 | `feature/mode-tabs-content`
 
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
