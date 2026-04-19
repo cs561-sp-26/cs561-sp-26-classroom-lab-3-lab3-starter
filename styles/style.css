@@ -181,6 +181,19 @@
     width: var(--side-menu-width);
 }
 
+/* sidemenu-li -- Styles items in the side menu. */
+.sidemenu li {
+    padding: 24px 0px 24px 24px; /* top, right, bottom, left */
+    font-size: 18px;
+}
+
+/* sidemenu-li -- Styles items in the side menu on hover. */
+.sidemenu li:hover {
+    cursor: pointer;
+    background-color: var(--item-highlight-color);
+    color: var(--main-color);
+}  
+
 /*************************************************************************
 * CSS CLASSES FOR TOP MODE TABS
 *************************************************************************/
