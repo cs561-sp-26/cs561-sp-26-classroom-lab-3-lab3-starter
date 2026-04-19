@@ -5,45 +5,45 @@
 
 ## Team Members
 - Name 1 (GitHub ID 1)
-- Name 2 (GitHub ID 2)
+- Savannah Tanner (102627802)
 - Adrien Protzel (934043865)
 - Chris Somnitz (91498970)
-- Name 5 (GitHub ID 5)
+- Kyle Noble (81642686)
 
 ## Commits
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Name 1 | 12 | 50 | 4.2
-| Name 2 | 8 | 20  | 2.5
+| Savannah Tanner | 0 | 0  | 0
 | Adrien Protzel | 0 | 0 | 0
 | Chris Somnitz | 0 | 0 | 0
-| Name 5 | 2 | 2  | 1
+| Kyle Noble | 0 | 0  | 0
 | **Totals** | **30** | **87** | **2.9**
 
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Kyle Noble | 0 | `feature/new-feature`
 
 ## Rebases
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Kyle Noble | 0 | `feature/new-feature`
 
 ## Cherry Picks
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Savannah Tanner | 0 | `feature/new-feature`
 | Adrien Protzel | 0 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Kyle Noble | 0 | `feature/new-feature`
