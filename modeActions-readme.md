@@ -27,4 +27,4 @@ Example: In this branch, I encountered a merge conflict when merging the `featur
 Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
 
 ### Cherry Pick Description (Delete if not applicable)
-Example: In this branch, I cherry-picked the commit `5678901` from the `feature/new-feature` branch into the `main` branch. The commit added a new feature to calculate speed score. I resolved any conflicts that arose during the cherry-pick process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+In this branch, I cherry-picked the commit `c97541a1ae196c21cb4ddc1850d2b1afd25a8752` from the `feature/modeActions` branch to the `main` branch. This commit is simply adding modeActions.js with the various function comments and headers. It also imports the script file from `index.html`
