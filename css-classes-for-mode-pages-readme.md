@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch features/css-classes-for-mode-pages
 
 ## Branch Author
 Savannah Tanner (102627802)
