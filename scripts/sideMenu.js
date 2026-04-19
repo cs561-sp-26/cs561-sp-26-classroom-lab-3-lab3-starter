@@ -45,6 +45,28 @@ for (let i = 0; i < GlobalMenuItems.length; ++i) {
     });
 }
 
+
+/*************************************************************************
+* @function keyDownMenuBtnFocused
+* @desc 
+* Handle keypress when the menuBtn has the focus. Process 
+* the arrow keys, space, and enter. All other keys are ignored.
+* @param key
+* The code of the key that was pressed.
+*************************************************************************/
+function keyDownMenuBtnFocused(key) {
+    if (key === "ArrowDown" || key === "ArrowUp" ||
+            key === "Space" || key === "Enter") {
+            menuBtn.click(); //open menu
+            if (key === "ArrowUp") { //Focus on last item
+                GlobalFocusedMenuItem.set(GlobalMenuItems.length-1);
+            } else { //Focus on first item
+                GlobalFocusedMenuItem.set(0);
+            }
+            GlobalMenuItems[GlobalFocusedMenuItem.get()].focus();
+        }
+}
+
 /*************************************************************************
 * @function keyDownMenuItemFocused
 * @desc 
