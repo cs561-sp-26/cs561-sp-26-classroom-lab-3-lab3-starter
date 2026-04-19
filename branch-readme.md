@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `feature/modeActions`
+# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
 
 ## Branch Author
 Kevin Tran (Nikomixo)
@@ -9,7 +9,7 @@ Implementing modeActions.js
 ## Commits
 
 | Commit ID | Commit Message | # Lines Changed
-| c97541a1ae196c21cb4ddc1850d2b1afd25a8752 | Initial modeActions.js with function descriptions and prototypes. Added modeActions.js to index.html | +75/-7
+| --------- | ----------- | ---------------
 
 
 ### Total Commits Made in this Branch: xx
