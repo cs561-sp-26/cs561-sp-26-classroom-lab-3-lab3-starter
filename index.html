@@ -45,6 +45,12 @@
     <!-- "MODE" TABS -->
     <div id="modeTabs" class="modetab-container" role="tablist"
       aria-label="App Modes">
+      <button id="feedMode" type="button" 
+        class="modetab-btn modetab-selected" 
+        role="tab" tabindex="0" aria-selected="true" 
+        aria-controls="feedModeMain">
+        Feed
+      </button>
       <button id="roundsMode" type="button" 
         class="modetab-btn" 
         role="tab" tabindex="-1" aria-selected="false" 
@@ -65,35 +71,46 @@
       </button>
     </div>
     <main>
-        <div id="roundsModeTab" class="mode-page hidden" role="tabpanel"
-            aria-label="Rounds Tab" tabindex="0">
-          <h1 class="mode-page-header">Rounds</h1>
+      <div id="feedModeTab" class="mode-page" role="tabpanel"
+        aria-label="Feed Tab" tabindex="0">
+        <h1 class="mode-page-header">Activity Feed</h1>
+        <p class="mode-page-content">This page is under construction.</p>
+        <img class="mode-page-icon" 
+              src="images/sslogo2.png" alt="SpeedScore logo">
+        <button id="feedModeActionBtn"  type="button" 
+                 class="float-btn">
+          <span class="fas fa-comment-medical fa-fw" aria-hidden="true"></span>New Post
+        </button>
+      </div>
+      <div id="roundsModeTab" class="mode-page hidden" role="tabpanel"
+          aria-label="Rounds Tab" tabindex="0">
+        <h1 class="mode-page-header">Rounds</h1>
+        <p class="mode-page-content">This page is under construction.</p>
+        <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
+        <button id="roundsModeActionBtn"  type="button" 
+                class="float-btn">
+          <span class="fas fa-calendar-plus fa-fw" aria-hidden="true"></span>New Round
+        </button>
+      </div>
+      <div id="coursesModeTab" role="tabpanel" class="mode-page hidden"
+        aria-label="Courses Tab" tabindex="0">
+          <h1 class="mode-page-header">Courses</h1>
           <p class="mode-page-content">This page is under construction.</p>
           <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
-          <button id="roundsModeActionBtn"  type="button" 
-                  class="float-btn">
-            <span class="fas fa-calendar-plus fa-fw" aria-hidden="true"></span>New Round
+          <button id="coursesModeActionBtn"  type="button"
+            class="float-btn">
+              <span class="fas fa-plus fa-fw" aria-hidden="true"></span>New Course
           </button>
-        </div>
-        <div id="coursesModeTab" role="tabpanel" class="mode-page hidden"
-          aria-label="Courses Tab" tabindex="0">
-            <h1 class="mode-page-header">Courses</h1>
-            <p class="mode-page-content">This page is under construction.</p>
-            <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
-            <button id="coursesModeActionBtn"  type="button"
-              class="float-btn">
-                <span class="fas fa-plus fa-fw" aria-hidden="true"></span>New Course
-            </button>
-        </div>
-        <div id="buddiesModeTab" role="tabpanel" class="mode-page hidden"
-          aria-label="Buddies Tab" tabindex="0">
-            <h1 class="mode-page-header">Buddies</h1>
-            <p class="mode-page-content">This page is under construction.</p>
-            <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
-            <button id="roundsModeActionBtn"  type="button"
-              class="float-btn">
-                <span class="fas fa-search fa-fw" aria-hidden="true"></span>Find Buddies
-            </button>
+      </div>
+      <div id="buddiesModeTab" role="tabpanel" class="mode-page hidden"
+        aria-label="Buddies Tab" tabindex="0">
+          <h1 class="mode-page-header">Buddies</h1>
+          <p class="mode-page-content">This page is under construction.</p>
+          <img class="mode-page-icon" src="images/sslogo2.png" alt="SpeedScore logo">
+          <button id="roundsModeActionBtn"  type="button"
+            class="float-btn">
+              <span class="fas fa-search fa-fw" aria-hidden="true"></span>Find Buddies
+          </button>
             <button id="feedMode" type="button" class="modetab-btn modetab-selected" role="tab" tabindex="0"
                 aria-selected="true" aria-controls="feedModeMain">
                 Feed
