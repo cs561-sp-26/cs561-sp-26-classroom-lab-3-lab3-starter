@@ -97,6 +97,27 @@ for (let i = 0; i < GlobalDialogActionButtons.length; ++i) {
  * each mode's dialog box
  *************************************************************************/
 /* Dialog Cancel Button Click Handler */
+for (let i = 0; i < GlobalDialogCancelButtons.length; ++i) {
+    GlobalDialogCancelButtons[i].addEventListener("click",function(e) {
+        //Hide dialog box
+        GlobalModeActionDialogs[GlobalCurrentMode.get()].classList.add("hidden");
+        //Show tab panel
+        GlobalModeTabPanels[GlobalCurrentMode.get()].classList.remove("hidden");
+        //Show and enable other UI elements
+        GlobalMenuBtn.classList.remove("disabled");       
+        GlobalSearchBtn.classList.remove("disabled"); 
+        GlobalProfileBtn.classList.remove("disabled");                                 
+        GlobalSkipLink.classList.remove("hidden"); 
+        GlobalModeTabsContainer.classList.remove("disabled"); 
+        //Set focus to floating action button
+        GlobalModeActionButtons[GlobalCurrentMode.get()].focus();
+        if (GlobalHistoryLogging) {
+            history.back();
+            console.log("Console: In GlobalDialogCancelButtons click handler; moving history stack pointer to previous frame.");
+        }
+    });
+}
+
 
 /*************************************************************************
  * @function keyDownDialogFocused
