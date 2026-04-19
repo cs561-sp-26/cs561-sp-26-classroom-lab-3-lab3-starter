@@ -12,5 +12,5 @@ In this branch, I added the CSS classes for mode pages section to style.css loca
 | --------- | ----------- | ---------------
 | ecb0d76 | Added the provided section on CSS classes for mode pages to style.css | 41
 | b913861 | Merged changes in the features/css-classes-for-mode-pages branch to the main branch| 20
-
-### Total Commits Made in this Branch: 2
+| 8d6efa8 | Removed an extra closing curly brace | 1
+### Total Commits Made in this Branch: 3
