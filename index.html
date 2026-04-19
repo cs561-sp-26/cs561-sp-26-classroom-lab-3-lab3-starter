@@ -42,8 +42,8 @@
 
         </div>
     </header>
-        <!--THE SIDE MENU -->
 
+        <!--THE SIDE MENU -->
 
         <!-- "MODE" TABS -->
     <div id="modeTabs" class="modetab-container" role="tablist" aria-label="App Modes">
@@ -63,6 +63,24 @@
             <button id="roundsModeActionBtn"  type="button" 
                     class="float-btn">
                 <span class="fas fa-search fa-fw" aria-hidden="true"></span>Find Buddies
+            </button>
+            <button id="feedMode" type="button" 
+              class="modetab-btn modetab-selected" 
+              role="tab" tabindex="0" aria-selected="true" 
+              aria-controls="feedModeMain">
+              Feed
+            </button>
+            <button id="roundsMode" type="button" 
+              class="modetab-btn" 
+              role="tab" tabindex="-1" aria-selected="false" 
+              aria-controls="roundsModeMain">
+              Rounds
+            </button>
+            <button id="coursesMode" type="button" 
+              class="modetab-btn" 
+              role="tab" tabindex="-1" aria-selected="false" 
+              aria-controls="coursesModeMain">
+              Courses
             </button>
         </div>
         
@@ -84,7 +102,11 @@
                         type="button">Cancel</button>
             </div>
         </div> 
-    </main>
+     </main>
+    </div>
+
     <script src="scripts/modeActions.js"></script>
+    <script src="scripts/modeTabs.js"></script>
+    <script src="scripts/window.js"></script>
   </body>
 </html>

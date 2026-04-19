@@ -4,7 +4,7 @@
 *Update this README file every time you push to the `main` branch. In addition, make sure you push a new branch README file (make a copy of the `branch-readme.md` template and rename to `your-branch-name`-readme.md) every time you merge a feature branch into `main`.*
 
 ## Team Members
-- Name 1 (GitHub ID 1)
+- Kevin Tran (Nikomixo)
 - Name 2 (GitHub ID 2)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
