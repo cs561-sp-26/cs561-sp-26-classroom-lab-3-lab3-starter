@@ -25,8 +25,8 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Alex Bruzda | 0 | `feature/new-feature`
-| Savannah Tanner | 1 | `feature/css-classes-for-mode-pages`
-| Adrien Protzel | 0 | `feature/new-feature`
+| Savannah Tanner | 2 | `feature/css-classes-for-mode-pages`, 'feature/document-events'
+| Adrien Protzel | 3 | `feature/new-feature`
 | Chris Somnitz | 0 | `feature/new-feature`
 | Kyle Noble | 1 | `feature/mode-tabs-style`
 
