@@ -1,10 +1,10 @@
 # CS 561 Lab 3: Branch `<<BRANCH NAME>>`
 
 ## Branch Author
-Author Name (GitHub ID)
+Jacksonpope2
 
 ## Summary of Work Done in this Branch
-Insert a summary of the work done in this branch. This should include a description the new feature(s) added and any bugs fixed.
+window.js file implemented with restoreState function
 
 ## Commits
 
