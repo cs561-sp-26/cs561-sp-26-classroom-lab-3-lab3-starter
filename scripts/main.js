@@ -16,6 +16,15 @@
 /* MODE TAB VARIABLES               */
 /************************************/
 //Array of mode names
+const GlobalModeNumbersToModes = new Map([
+  [3, "BUDDIES"]
+]);
+const GlobalModeNumbersToRoutes = new Map([
+  [3, "/buddies"]
+]);
+const GlobalModeDialogNumbersToRoutes = new Map([
+  [3, "/buddies/findbuddy"]
+]);
 
 
 
