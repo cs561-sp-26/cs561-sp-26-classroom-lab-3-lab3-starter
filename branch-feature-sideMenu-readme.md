@@ -19,8 +19,6 @@ This branch implements the side menu feature for the application. The work inclu
 ### Total Commits Made in this Branch: 5
 
 ### Merge Conflict Description (Delete if not applicable)
-In this branch, I encountered a merge conflict when cherry-picking commit `97215e3` (`add keyDownMenuBtnFocused`) from the local `BtnFocused` branch into `feature/sideMenu`. The conflict occurred in `scripts/sideMenu.js` because both branches had independently modified that file. I resolved the conflict manually, then staged the file with `git add scripts/sideMenu.js` and ran `git cherry-pick --continue`. The resulting commit ID is `c60e377`.
-### Merge Conflict Description
 When opening a pull request to merge `feature/sideMenu` into `main`, GitHub detected a conflict in `index.html`. This occurred because other team members had made changes to `index.html` on `main` after my branch diverged. I resolved the conflict using the GitHub web editor, keeping the changes from both branches by carefully integrating the side menu HTML structure with the existing content. The PR is commit `a3d396a` ("add side menu HTML structure").
 
 ### Rebase Description (Delete if not applicable)
