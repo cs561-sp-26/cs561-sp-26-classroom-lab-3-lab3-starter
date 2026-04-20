@@ -5,7 +5,7 @@
 
 ## Team Members
 - Kevin Tran (Nikomixo)
-- Name 2 (GitHub ID 2)
+- Huanqi Bao (CassanBob)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
 - Name 5 (GitHub ID 5)
@@ -15,7 +15,7 @@
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
 | --------- | ----------- | ---------|----
 | Name 1 | 12 | 50 | 4.2
-| Name 2 | 8 | 20  | 2.5
+| Huanqi Bao | 12 | 237  | 14.3
 | Name 3 | 5 | 10 | 2
 | Name 4 | 3 | 5 | 1.67
 | Name 5 | 2 | 2  | 1
@@ -25,7 +25,7 @@
 | Name | # MCs Resolved | Merged Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Huanqi Bao | 2 | `feature/sideMenu`, `feature/activity_feed`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -34,7 +34,7 @@
 | Name | # Rebases | Within Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Huanqi Bao | 3 | `feature/sideMenu`, `feature/activity_feed`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
+| Huanqi Bao | 1 | `BtnFocused`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
