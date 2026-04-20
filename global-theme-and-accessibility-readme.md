@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch `<<feature/global-theme-and-accessibility>>`
 
 ## Branch Author
 Hao Jun Chen RayHao2 
