@@ -6,44 +6,44 @@
 ## Team Members
 - Kevin Tran (Nikomixo)
 - Huanqi Bao (CassanBob)
-- Name 3 (GitHub ID 3)
-- Name 4 (GitHub ID 4)
+- Jackson Pope (Jacksonpope2)
+- Shivani Pushparajan (pushpars-shivani)
 - Name 5 (GitHub ID 5)
 
 ## Commits
 
-| Name | # Commits | # Lines Changed | Avg. Lines/Commit
-| --------- | ----------- | ---------|----
-| Name 1 | 12 | 50 | 4.2
-| Huanqi Bao | 12 | 237  | 19.75
-| Name 3 | 5 | 10 | 2
-| Name 4 | 3 | 5 | 1.67
-| Name 5 | 2 | 2  | 1
-| **Totals** | **30** | **87** | **2.9**
+| Name | # Commits | # Lines Changed | Avg. Lines/Commit |
+| --------- | ----------- | --------------- | ----------------- |
+| Nikomixo | 41 | 900 | 21.95 |
+| Jackson Pope | 32 | 432 | 13.50 |
+| Cassan | 31 | 543 | 17.52 |
+| Shivani Pushparajan | 24 | 567 | 23.63 |
+| Name 5 | 0 | 0 | 0 |
+| **Totals** | **128** | **2,442** | **19.08** |
 
 ## Merge Conflicts Resolved
-| Name | # MCs Resolved | Merged Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Huanqi Bao | 2 | `feature/sideMenu`, `feature/activity_feed`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Name | # MCs Resolved | Merged Branch |
+| --------- | ----------- | --------------- |
+| Nikomixo | 1 | `feature/buddies` |
+| Jackson Pope | 1 | `feature/rounds` |
+| Cassan | 2 | `feature/activity_feed`, `feature/sideMenu` |
+| Shivani Pushparajan | 2 | `feature/mode-tabs`, `feature/courses` |
+| Name 5 | 0 | N/A |
 
 ## Rebases
-| Name | # Rebases | Within Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Huanqi Bao | 3 | `feature/sideMenu`, `feature/activity_feed`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Name | # Rebases | Within Branch |
+| --------- | ----------- | --------------- |
+| Nikomixo | 1 | `feature/modeActions` |
+| Jackson Pope | 2 | `feature/rounds`, `feature/window` |
+| Cassan | 3 | `feature/activity_feed`, `feature/sideMenu` |
+| Shivani Pushparajan | 2 | `feature/courses`, `feature/mode-tabs` |
+| Name 5 | 0 | N/A |
 
 ## Cherry Picks
-| Name | # Cherry Picks | From Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Huanqi Bao | 1 | `feature/sideMenu`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+| Name | # Cherry Picks | From Branch |
+| --------- | ----------- | --------------- |
+| Nikomixo | 1 | `feature/modeActions` |
+| Jackson Pope | 1 | `feature/window` |
+| Cassan | 1 | `feature/sideMenu` |
+| Shivani Pushparajan | 2 | `feature/mode-tabs` |
+| Name 5 | 0 | N/A |
