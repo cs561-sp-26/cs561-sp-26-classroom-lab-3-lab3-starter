@@ -26,7 +26,7 @@ Finally, the file was refined to match the provided “after” repository exact
 | bc4e428 | Add initial structure for side menu functionality | 2 |
 | 82d5953 | Create scripts folder and sideMenu.js file | 0|
 
-### Total Commits Made in this Branch: 6–7
+### Total Commits Made in this Branch: 7
 
 ---
 
