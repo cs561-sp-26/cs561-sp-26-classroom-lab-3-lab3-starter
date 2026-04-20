@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch feature/window
 
 ## Branch Author
 Jacksonpope2
@@ -9,17 +9,24 @@ window.js file implemented with restoreState function
 ## Commits
 
 | Commit ID | Commit Message | # Lines Changed
-| --------- | ----------- | ---------------
-| 1234567 | Added new feature to calculate speed score | 50
-| 2345678 | Fixed bug in speed score calculation | 20
+| 32b9d00 | (HEAD -> feature/window, origin/feature/window) Added source to index.html for window.js | 1
+| cdfb772 | Chery-Pick section filled in READ ME file | 1 -1
+| 643517f | moved document.js to /scripts | 0
+| 9ed7bfb | Added Document.js skeleton funtion and description | 15
+| 72c7153 | Feature-window read me added | 2 -2
+| f8efac9 | Implemented popstate event listener | 6 -1
+| 731fc3f | Implemented window event functions | 1 -1
+| b950337 | Implemented restoreState function | 24 -1
+| ee457cf | Created Window.js with Skeleton Fuctions | 30
+| 8c3751f | (origin/feature/mode-tabs) Initial empty main.js and scripts folder structure | 24 -1
+| 32cb1b9 | add online IDE url; add deadline | 2
+| f93278a | Initial commit | 417
 
-### Total Commits Made in this Branch: xx
+### Total Commits Made in this Branch: 12
 
-### Merge Conflict Description (Delete if not applicable)
-Example: In this branch, I encountered a merge conflict when merging the `feature/new-feature` branch into the `main` branch. The conflict occurred in the `speed_score.js` file on line 42. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3456789`.
 
-### Rebase Description (Delete if not applicable)
-Example: In this branch, I rebased the `feature/new-feature` branch onto the `main` branch. The commit ID for this rebase is `4567890`. I resolved any conflicts that arose during the rebase process by modifying the code in the `speed_score.js` file to work with the changes made in the `main` branch.
+### Rebase Description
+In this branch, I rabased the `feature/window` branch onto the `main` branch. The commit ID for this rebase is `32b9d00`. I did not need to resolve any conflicts. I added a line of code in index.html that should have been implemented in this branch earlier.
 
-### Cherry Pick Description (Delete if not applicable)
-In this branch, I cherry-picked commit ee457cf into main so my team members could have a skeleton of my feature I was going to implement
+### Cherry Pick Description
+While working on this branch, I cherry-picked commit ee457cf into main so my team members could have a skeleton of my feature I was going to implement
