@@ -6,7 +6,7 @@
 ## Team Members
 - Luke (goodmalu19)
 - Alan (AlanWallace-OSU)
-- Name 3 (GitHub ID 3)
+- Kris (KrisSoto)
 - Name 4 (GitHub ID 4)
 - Name 5 (GitHub ID 5)
 
@@ -16,7 +16,7 @@
 | --------- | ----------- | ---------|----
 | Luke | 29 | 131 | 4.5
 | Alan | 16 | 219  | 13.69
-| Name 3 | 5 | 10 | 2
+| Kris | 10 | 122 | 12.2
 | Name 4 | 3 | 5 | 1.67
 | Name 5 | 2 | 2  | 1
 | **Totals** | **30** | **87** | **2.9**
@@ -26,7 +26,7 @@
 | --------- | ----------- | ---------------
 | Luke | 6 | `feature/infrastructure`
 | Alan | 2 | `feature/feedmode`
-| Name 3 | 1 | `feature/new-feature`
+| Kris | 1 | `feature/course_mode`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
 
@@ -35,7 +35,7 @@
 | --------- | ----------- | ---------------
 | Luke | 1 | `feature/rebase`
 | Alan | 1 | `feature/feedmode`
-| Name 3 | 1 | `feature/new-feature`
+| Kris | 1 | `feature/rounds_mode`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
 
@@ -44,6 +44,6 @@
 | --------- | ----------- | ---------------
 | Luke | 0 | `feature/new-feature`
 | Alan | 1 | `feature/buddiesmode`
-| Name 3 | 1 | `feature/new-feature`
+| Kris | 1 | `feature/window`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
