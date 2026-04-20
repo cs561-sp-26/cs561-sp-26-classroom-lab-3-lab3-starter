@@ -45,6 +45,7 @@ for (let i = 0; i < GlobalModeActionButtons.length; ++i) {
         }
     });
 }
+
 /*************************************************************************
  * @function Dialog Box Action Button CLICK handler 
  * @Desc 
@@ -81,6 +82,7 @@ for (let i = 0; i < GlobalDialogActionButtons.length; ++i) {
         }
     });
 }
+
 /*************************************************************************
  * @function Dialog Box Cancel Button CLICK handler 
  * @Desc 
@@ -118,7 +120,6 @@ for (let i = 0; i < GlobalDialogCancelButtons.length; ++i) {
     });
 }
 
-
 /*************************************************************************
  * @function keyDownDialogFocused
  * @Desc 
@@ -132,7 +133,6 @@ for (let i = 0; i < GlobalDialogCancelButtons.length; ++i) {
  * @global dialogCancelButtons: array of cancel buttons for
  * each mode's dialog box
  *************************************************************************/
-
 function keyDownDialogFocused(e) {
     if (document.activeElement.classList
         .contains("action-button") && 

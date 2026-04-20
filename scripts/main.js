@@ -6,7 +6,6 @@
 let GlobalHistoryLogging = true;
 let GlobalDialogClose = null;
 
-
 /************************************/
 /* MENU VARIABLES                   */
 /************************************/
@@ -23,7 +22,6 @@ const GlobalFocusedMenuItem = (() => {
     }
     return Object.freeze(Store)
 })()
-
 
 /************************************/
 /* MODE TAB VARIABLES               */
@@ -73,7 +71,6 @@ const GlobalModeTabButtons =
 const GlobalModeTabPanels = 
   document.querySelectorAll("div[role='tabpanel']");
 
-
 /*****************************************************/
 /* FLOATING ACTION BUTTON AND MODAL DIALOG VARIABLES */
 /*****************************************************/
@@ -89,7 +86,6 @@ const GlobalDialogActionButtons =
 //array of "Cancel" buttons within the dialog boxes
 const GlobalDialogCancelButtons =
   document.querySelectorAll("button.cancel-button");
-
 
 /*****************************************************/
 /* OTHER UI COMPONENT VARIABLES */
