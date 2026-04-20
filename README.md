@@ -43,7 +43,7 @@
 | Name | # Cherry Picks | From Branch
 | --------- | ----------- | ---------------
 | Name 1 | 2 | `feature/new-feature`
-| Huanqi Bao | 1 | `BtnFocused`
+| Huanqi Bao | 1 | `feature/sideMenu`
 | Name 3 | 1 | `feature/new-feature`
 | Name 4 | 0 | `feature/new-feature`
 | Name 5 | 0 | `feature/new-feature`
