@@ -209,3 +209,7 @@ button::-moz-focus-inner {
     background-color: var(--main-color);
     cursor: pointer;
 }
+
+.mode-page-content {
+  font-weight: bold
+}
