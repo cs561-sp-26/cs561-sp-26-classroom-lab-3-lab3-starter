@@ -1,18 +1,18 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch `<<feature/side-menu-navigation>>`
 
 ## Branch Author
 Hao Jun Chen RayHao2 
 
 ## Summary of Work Done in this Branch
-Modify style/style.css on global theme and accessibility
+Add Side-menu feature into style.css
 
 ## Commits
 
 | Commit ID | Commit Message | # Lines Changed
 | --------- | ----------- | ---------------
-| 3b4cfe7 | Add shared theme variables in :root | 3
-| 278a7ca | add global CSS Classes | 22
+| 1d8d7d2 | update style.css's sidemenu feature | 37
 
-### Total Commits Made in this Branch: 2
+
+### Total Commits Made in this Branch: 1
 
 
