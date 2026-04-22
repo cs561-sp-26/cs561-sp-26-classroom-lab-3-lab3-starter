@@ -22,6 +22,7 @@ const GlobalFocusedMenuItem = (() => {
     }
     return Object.freeze(Store)
 })()
+
 /************************************/
 /* MODE TAB VARIABLES               */
 /************************************/
@@ -62,9 +63,26 @@ const GlobalFocusedMode = (() => {
     }
     return Object.freeze(Store)
 })()
+
 //Array of mode tab button elements:
 const GlobalModeTabButtons = 
   document.querySelectorAll("button[role='tab']");
 //Array of mode tab panel elements:
 const GlobalModeTabPanels = 
   document.querySelectorAll("div[role='tabpanel']");
+  
+/*****************************************************/
+/* FLOATING ACTION BUTTON AND MODAL DIALOG VARIABLES */
+/*****************************************************/
+//Array of mode action buttons
+const GlobalModeActionButtons = 
+  document.querySelectorAll("button.float-btn");
+//array of mode action dialog boxes
+const GlobalModeActionDialogs =
+  document.querySelectorAll("div.action-dialog");
+//array of "OK" buttons within the dialog boxes
+const GlobalDialogActionButtons =
+  document.querySelectorAll("button.action-button");
+//array of "Cancel" buttons within the dialog boxes
+const GlobalDialogCancelButtons =
+  document.querySelectorAll("button.cancel-button");
