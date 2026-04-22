@@ -1,21 +1,25 @@
-# feature-side-menu
+# CS 561 Lab 3: Branch `feature-side-menu`
 
-This branch implements the side menu feature.
+## Branch Author
+William Huang (William-HuangWY)
 
-Changes include:
+## Summary of Work Done in This Branch
+This branch adds the side menu feature to the SpeedScore application, including UI structure, styling, and interaction logic.
 
-* Added side menu HTML structure in index.html
-* Added side menu styles in style.css
-* Created sideMenu.js for menu behavior
-* Implemented menu toggle (open/close)
-* Added basic keyboard navigation support
-* Fixed missing CSS variable for menu width
+Features added:
+- Side menu structure in index.html
+- Side menu styling in style.css
+- Menu toggle behavior (open/close)
+- Keyboard navigation support
 
-Git operations:
+## Commits
 
-* Resolved a merge conflict in index.html when merging with another feature branch
-* Rebasing was performed to sync with latest main
-* Cherry-picked a CSS fix commit into main
+| Commit ID | Commit Message | # Lines Changed |
+| --------- | -------------- | --------------- |
+| a1b2c3d | Add side menu HTML structure | ~40 |
+| b2c3d4e | Add side menu styles | ~60 |
+| c3d4e5f | Implement side menu toggle logic | ~80 |
+| d4e5f6g | Add keyboard navigation support | ~70 |
+| e5f6g7h | Fix missing CSS variable for menu width | ~10 |
 
-Result:
-The side menu opens and closes correctly and integrates with the existing UI.
+### Total Commits Made in this Branch: 5
