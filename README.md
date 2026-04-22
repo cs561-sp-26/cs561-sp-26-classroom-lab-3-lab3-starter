@@ -1,16 +1,23 @@
 # CS 561 Lab 3: Branch `feature-side-menu`
 
-## Branch Author
-William Huang (William-HuangWY)
+## Team Members
+- Daniel Kish (Danielhk832)
+- Name 2 (GitHub ID 2)
+- Name 3 (GitHub ID 3)
+- Name 4 (GitHub ID 4)
+- Name 5 (GitHub ID 5)
 
 ## Summary of Work Done in This Branch
 This branch adds the side menu feature to the SpeedScore application, including UI structure, styling, and interaction logic.
 
-Features added:
-- Side menu structure in index.html
-- Side menu styling in style.css
-- Menu toggle behavior (open/close)
-- Keyboard navigation support
+| Name | # Commits | # Lines Changed | Avg. Lines/Commit
+| --------- |-----------|-----------------|----
+| Name 1 | 3         | 80              | 26.67
+| Name 2 | 8         | 20              | 2.5
+| Name 3 | 5         | 10              | 2
+| Name 4 | 3         | 5               | 1.67
+| Name 5 | 2         | 2               | 1
+| **Totals** | **30**    | **87**          | **2.9**
 
 ## Commits
 
