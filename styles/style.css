@@ -11,8 +11,8 @@
 * attributes of the app's visual appearance. They can be easily tweaked.
 *************************************************************************/
 :root {
-    --main-color: #13294E;
-    --text-color: white;       
+    --main-color: #244681;
+    --text-color: rgb(246, 246, 246);       
     --main-red-color: #ff0f00; 
     --item-highlight-color: #f0f0f0;    
     --side-menu-width: 250px;       
