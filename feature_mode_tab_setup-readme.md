@@ -1,4 +1,4 @@
-# CS 561 Lab 3: Branch `<<BRANCH NAME>>`
+# CS 561 Lab 3: Branch `<<feature/mode_tab_setup>>`
 
 ## Branch Author
 Daniel Kish (Danielhk832)
@@ -16,7 +16,7 @@ created the modeTabs.js file and modeActions.js file. added the switchMode funct
 | 68d4f000d2237ab7706fb0f601ad8253be022934 | eadded for loop to bind switchMode() to each tab's click handler. updated README.md | +15 -8
 | 16ca8e1d31cb1e90a7f3b518af27fd69266af776 | added keyDFownModeTabFocused function. created the branch readme for this branch.                                                        | +70
 
-### Total Commits Made in this Branch: 9
+### Total Commits Made in this Branch: 4
 
 ### Merge Conflict Description (Delete if not applicable)
 In this branch, I encountered a merge conflict when merging the `feature/mode_tab_setup` branch into the `main` branch. The conflict occurred in the `README.md` file on lines 3-21. I resolved the conflict by keeping the changes from both branches and modifying the code to work together. The commit ID for this merge is `3fda6b0adbb252bd1a664450d2a646d91e6163be`.
