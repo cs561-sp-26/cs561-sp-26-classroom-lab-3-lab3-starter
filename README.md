@@ -2,7 +2,7 @@
 
 ## Team Members
 - Daniel Kish (Danielhk832)
-- Name 2 (GitHub ID 2)
+- Wei-Ying Huang (William-HuangWY)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
 - Name 5 (GitHub ID 5)
