@@ -1,44 +1,36 @@
 /*************************************************************************
- * File: modeTabs.js
- * Desc: Contains the JavaScript functions to handle interactions
- * with the mode tabs ("Feed", "Rounds", "Courses", "Buddies").
- * We use the w3.org "Example of Tabs with Manual Activiation" as a
- * specification for implementing the accessible keyboard interface:
- * https://www.w3.org/TR/wai-aria-practices/examples/tabs/tabs-2/tabs.html
+ * @function Dialog Box Action Button CLICK handler
+ * @Desc
+ * When the user clicks on the primary action button in a dialog box, we
+ * perform the corresponding action, close the dialog box; restore
+ * the navigation bar buttons; show the mode tabs; restore the
+ * current mode's main page; and set the focus to the current mode's
+ * action button. We use currentMode to determine which mode we're in.
+ * @global currentMode: index of current mode
+ * @global modeTabsContainer: the <div> containing the mode tab buttons
+ * @global modeTabPanels: array of tab panels for each mode
+ * @global modeActionDialogs: array of dialog boxes for each mode
+ * @global dialogActionButtons: array of default ("OK") buttons for
+ * each mode's dialog box
  *************************************************************************/
-
-/*************************************************************************
- * @function switchMode
- * @desc
- * Switch from the current mode to a new mode. Unhighlight previous
- * mode tab button, highlight new mode tab button, hide previous mode
- * tab panel, show new mode tab panel, and update mode variables.
- * @param newMode, an integer index (into modeTabButtons and
- *        modeTabPanels) corresponding to the new mode
- * @global modeTabButtons (array of HTML tab button elements)
- * @global modeTabPanels (array of HTML tab panel elements)
- * @global currentMode (index of current mode)
- * @global focusedMode (index of mode with current focus)
- *************************************************************************/
-function switchMode(newMode) {
-    //Switch mode button
-    GlobalModeTabButtons[GlobalCurrentMode.get()].classList.remove("modetab-selected");
-    GlobalModeTabButtons[GlobalCurrentMode.get()].setAttribute("aria-selected",false);
-    GlobalModeTabButtons[newMode].classList.add("modetab-selected");
-    GlobalModeTabButtons[newMode].setAttribute("aria-selected",true);
-    //Switch tab panel
-    GlobalModeTabPanels[GlobalCurrentMode.get()].classList.add("hidden");
-    GlobalModeTabPanels[newMode].classList.remove("hidden");
-    GlobalCurrentMode.set(newMode); //Change mode
-    GlobalFocusedMode.set(newMode); //Change focused mode
-    if (GlobalHistoryLogging) {
-        const historyObj = {
-            page: GlobalModeNumbersToModes.get(newMode),
-            mode: newMode,
-            path: GlobalModeNumbersToRoutes.get(newMode)
-        };
-        history.pushState(historyObj, "", historyObj.path);
-        console.log("Console: In switchMode; pushing state: ",
-            JSON.stringify(historyObj));
-    }
+for (let i = 0; i < GlobalDialogActionButtons.length; ++i) {
+    GlobalDialogActionButtons[i].addEventListener("click",function(e) {
+        //Hide dialog box
+        GlobalModeActionDialogs[i].classList.add("hidden");
+        //Show tab panel
+        GlobalModeTabPanels[i].classList.remove("hidden");
+        //Show and enable other UI elements
+        GlobalMenuBtn.classList.remove("disabled");
+        GlobalSearchBtn.classList.remove("disabled");
+        GlobalProfileBtn.classList.remove("disabled");
+        GlobalSkipLink.classList.remove("hidden");
+        GlobalModeTabsContainer.classList.remove("disabled");
+        //Set focus to floating action button
+        GlobalModeActionButtons[i].focus();
+        //TO DO: Implement mode-specific functionality
+        if (GlobalHistoryLogging) {
+            history.back();
+            console.log("Console: In GlobalDialogActionButtons click handler; moving history stack pointer to previous frame.");
+        }
+    });
 }
