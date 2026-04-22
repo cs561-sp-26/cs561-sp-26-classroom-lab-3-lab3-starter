@@ -1,49 +1,21 @@
-[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-22041afd0340ce965d47ae6ef1cefeee28c7c493a6346c4f15d667ab976d596c.svg)](https://classroom.github.com/a/gDX3LyTl)
-[![Open in Visual Studio Code](https://classroom.github.com/assets/open-in-vscode-2e0aaae1b6195c2367325f4f02e2d04e9abb55f0b24a779b69b11b9e10269abc.svg)](https://classroom.github.com/online_ide?assignment_repo_id=23564221&assignment_repo_type=AssignmentRepo)
-# CS 561 Lab 3 README
-*Update this README file every time you push to the `main` branch. In addition, make sure you push a new branch README file (make a copy of the `branch-readme.md` template and rename to `your-branch-name`-readme.md) every time you merge a feature branch into `main`.*
+# feature-side-menu
 
-## Team Members
-- Name 1 (GitHub ID 1)
-- Name 2 (GitHub ID 2)
-- Name 3 (GitHub ID 3)
-- Name 4 (GitHub ID 4)
-- Name 5 (GitHub ID 5)
+This branch implements the side menu feature.
 
-## Commits
+Changes include:
 
-| Name | # Commits | # Lines Changed | Avg. Lines/Commit
-| --------- | ----------- | ---------|----
-| Name 1 | 12 | 50 | 4.2
-| Name 2 | 8 | 20  | 2.5
-| Name 3 | 5 | 10 | 2
-| Name 4 | 3 | 5 | 1.67
-| Name 5 | 2 | 2  | 1
-| **Totals** | **30** | **87** | **2.9**
+* Added side menu HTML structure in index.html
+* Added side menu styles in style.css
+* Created sideMenu.js for menu behavior
+* Implemented menu toggle (open/close)
+* Added basic keyboard navigation support
+* Fixed missing CSS variable for menu width
 
-## Merge Conflicts Resolved
-| Name | # MCs Resolved | Merged Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+Git operations:
 
-## Rebases
-| Name | # Rebases | Within Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+* Resolved a merge conflict in index.html when merging with another feature branch
+* Rebasing was performed to sync with latest main
+* Cherry-picked a CSS fix commit into main
 
-## Cherry Picks
-| Name | # Cherry Picks | From Branch
-| --------- | ----------- | ---------------
-| Name 1 | 2 | `feature/new-feature`
-| Name 2 | 1 | `feature/new-feature`
-| Name 3 | 1 | `feature/new-feature`
-| Name 4 | 0 | `feature/new-feature`
-| Name 5 | 0 | `feature/new-feature`
+Result:
+The side menu opens and closes correctly and integrates with the existing UI.
