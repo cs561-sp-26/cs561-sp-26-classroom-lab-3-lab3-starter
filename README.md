@@ -4,7 +4,7 @@
 *Update this README file every time you push to the `main` branch. In addition, make sure you push a new branch README file (make a copy of the `branch-readme.md` template and rename to `your-branch-name`-readme.md) every time you merge a feature branch into `main`.*
 
 ## Team Members
-- Name 1 (GitHub ID 1)
+- Daniel Kish (Danielhk832)
 - Name 2 (GitHub ID 2)
 - Name 3 (GitHub ID 3)
 - Name 4 (GitHub ID 4)
@@ -13,13 +13,13 @@
 ## Commits
 
 | Name | # Commits | # Lines Changed | Avg. Lines/Commit
-| --------- | ----------- | ---------|----
-| Name 1 | 12 | 50 | 4.2
-| Name 2 | 8 | 20  | 2.5
-| Name 3 | 5 | 10 | 2
-| Name 4 | 3 | 5 | 1.67
-| Name 5 | 2 | 2  | 1
-| **Totals** | **30** | **87** | **2.9**
+| --------- |-----------|-----------------|----
+| Name 1 | 3         | 80              | 26.67
+| Name 2 | 8         | 20              | 2.5
+| Name 3 | 5         | 10              | 2
+| Name 4 | 3         | 5               | 1.67
+| Name 5 | 2         | 2               | 1
+| **Totals** | **30**    | **87**          | **2.9**
 
 ## Merge Conflicts Resolved
 | Name | # MCs Resolved | Merged Branch
